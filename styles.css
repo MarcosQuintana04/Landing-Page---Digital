@@ -259,6 +259,10 @@ ul {
     width: 50%;
 }
 
+.btn-shadow {
+    box-shadow: var(--box-shadow);
+}
+
 /* --------------------------- /GLOBAL CLASSES --------------------------- */
 
 /* --------------------------- MEDIA QUERY --------------------------- */
@@ -513,3 +517,15 @@ ul {
     border-radius: 10px;
 }
 /* --------------------------- /RECENT WORK AREA STYLE --------------------------- */
+
+/* --------------------------- CARD AREA STYLE --------------------------- */
+#site-main .article-area .grid {
+    column-gap: 5em;
+}
+
+#site-main .article-area .grid article {
+    border-radius: 10px;
+}
+
+/* --------------------------- /CARD AREA STYLE --------------------------- */
+
