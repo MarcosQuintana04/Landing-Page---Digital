@@ -276,6 +276,11 @@ ul {
     .sm-text-xl {
         font-size: 3em;
     }
+
+    .sm-p-10 {
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
     
 }
 
@@ -528,4 +533,17 @@ ul {
 }
 
 /* --------------------------- /CARD AREA STYLE --------------------------- */
+
+
+/* --------------------------- READY AREA STYLE --------------------------- */
+#site-main .ready-area .flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+#site-main .ready-area .flex h1 {
+    margin-bottom: 8px;
+}
+/* --------------------------- /READY AREA STYLE --------------------------- */
 
